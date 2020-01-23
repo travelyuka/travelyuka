@@ -1,0 +1,18 @@
+
+@media(max-width:1000px){
+	.container {
+		width:100%;
+		margin: 0 auto;
+		text-align: center;
+		
+		}
+	.title-wrapper{
+		background-image: url(https://github.com/travelyuka/travelyuka/blob/master/small.jpg?raw=true);
+		width: 100%;
+		
+	}
+	.wrap{
+		overflow: hidden;
+	}
+
+}	
