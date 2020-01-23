@@ -1,5 +1,4 @@
 
-
 @media(max-width:1000px){
 	.container {
 		width:100%;
@@ -16,12 +15,12 @@
 		overflow: hidden;
 	}
 	.menu-wrapper{
-		width:200px;
+		display: none;
 	}
 	.title-wrapper h1{
 		display: none;
 	}
-		.title-wrapper p{
+	.title-wrapper p{
 		display: none;
 	}
 
