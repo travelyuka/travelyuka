@@ -15,9 +15,9 @@
   height:540px;
   background-size: cover;
   position: relative;
-  background-color:rgba(255,255,255,0.3);
- background-blend-mode:lighten;
- background-attachment: fixed;
+  
+ opacity: 0.8;
+ 
  background-position: center center;
   
 }
@@ -29,6 +29,7 @@
   top: 45px;
   left: 300px;
   color:white;
+  
 }
 
 .title-wrapper p{
@@ -55,7 +56,7 @@
 
 }
 .menu-wrapper{
-  color:white;
+  color:black;
   font-size: 36px;
   padding-top: 19px;
   padding-bottom: 9px;
@@ -65,20 +66,25 @@
 /****concept***/
 .concept-wrapper{
   height:600px;
-  background-color: red;
+  background: linear-gradient(#fff 70%, #ededed 30%);
 }
 .container img{
   width:500px;
 }
 
-
+.concept-wrapper h2{
+  font-size:36px;
+}
+.concept-wrapper p{
+  font-size:16px;
+}
 /*****pictures****/
 .picture img{
   width:400px;
 }
 
 .pictures-wrapper{
-  background-color: green;
+  background-color: white;
   
 
 }
@@ -93,9 +99,24 @@
   
 }
 
+.heading h2{
+  font-size:36px;
+
+}
+
+.heading p{
+  font-size:16px;
+}
+.picture h3{
+  font-size:24px;
+}
+
+.picture p{
+  font-size:16px;
+}
 /****pulpitrocl*****/
 .pulpit-rock-wrapper{
-  background-color: brown;
+  background: linear-gradient(#ededed 70%,#fff 30%);
 
 }
 .pp-wrapper{
@@ -105,7 +126,6 @@
 }
 .ppr{
   
-  background-color: yellow;
  width:30%;
 }
 
@@ -113,16 +133,25 @@
   width:300px;
 }
 
+.ppr h2{
+  font-size:24px;
+}
+.ppr p{
+  font-size:16px;
+}
+
+
 /*****infomation***/
 .table{
-  background-color: pink;
+  
   }
 .table td{
   padding:20px 10px;
   text-align: left;
+  font-size: 16px;
 }
 .infomation-norway-pic{
-  background-color: purple;
+  
 
 }
 
@@ -134,7 +163,7 @@
 
 }
 .info-wrapper{
-  background-color: blue;
+  
 }
 
 
@@ -155,7 +184,7 @@
   border-radius: 7px;
   height:35px;
   width:150px;
-  padding-top: 10px;
+  padding-top: 8px;
   color:white;
   text-align: center;
   text-decoration: none;
@@ -177,3 +206,10 @@
 
 }
 
+.spbr{
+  display: none;
+}
+
+.spbripad{
+  display: none;
+}
