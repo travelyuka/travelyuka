@@ -21,4 +21,13 @@
 	.title-wrapper h1{
 		display: none;
 	}
+		.title-wrapper p{
+		display: none;
+	}
+
+	body{
+		overflow-x: hidden;
+		width: 100%;
+	}
+}	
 }	
